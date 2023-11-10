@@ -1,0 +1,91 @@
+Planning service: https://solver.planning.domains/solve
+Domain: restaurant-conditional-effects, Problem: problem2
+
+
+task contains conditional effects. turning off state domination.
+
+ --- OK.
+ Match tree built with 47 nodes.
+
+PDDL problem description loaded: 
+	Domain: RESTAURANT-CONDITIONAL-EFFECTS
+	Problem: PROBLEM2
+	#Actions: 47
+	#Fluents: 64
+Landmarks found: 3
+Starting search with IW (time budget is 60 secs)...
+rel_plan size: 14
+#RP_fluents 36
+Caption
+{#goals, #UNnachieved,  #Achieved} -> IW(max_w)
+
+{3/3/0}:IW(1) -> [2][3][4][5][6][7][8][9]rel_plan size: 9
+#RP_fluents 22
+{3/2/1}:IW(1) -> [2][3][4][5][6][7]rel_plan size: 6
+#RP_fluents 17
+{3/1/2}:IW(1) -> [2][3][4][5][6][7][8][9]rel_plan size: 0
+#RP_fluents 0Plan found with cost: 22
+Total time: 0.000372
+Nodes generated during search: 148
+Nodes expanded during search: 110
+IW search completed
+
+
+
+task contains conditional effects. turning off state domination.
+
+ --- OK.
+ Match tree built with 47 nodes.
+
+PDDL problem description loaded: 
+	Domain: RESTAURANT-CONDITIONAL-EFFECTS
+	Problem: PROBLEM2
+	#Actions: 47
+	#Fluents: 64
+Landmarks found: 3
+Starting search with IW (time budget is 60 secs)...
+rel_plan size: 14
+#RP_fluents 36
+Caption
+{#goals, #UNnachieved,  #Achieved} -> IW(max_w)
+
+{3/3/0}:IW(1) -> [2][3][4][5][6][7][8][9]rel_plan size: 9
+#RP_fluents 22
+{3/2/1}:IW(1) -> [2][3][4][5][6][7]rel_plan size: 6
+#RP_fluents 17
+{3/1/2}:IW(1) -> [2][3][4][5][6][7][8][9]rel_plan size: 0
+#RP_fluents 0Plan found with cost: 22
+Total time: 0.000372
+Nodes generated during search: 148
+Nodes expanded during search: 110
+IW search completed
+
+
+Plan found:
+0.00100: (move pla ala)
+0.00200: (move ala ama)
+0.00300: (move ama aua)
+0.00400: (move aua bta)
+0.00500: (hold bta plate1)
+0.00600: (fill plate1)
+0.00700: (move bta aua)
+0.00800: (serve aua custom3 plate1)
+0.00900: (move aua bta)
+0.01000: (hold bta plate2)
+0.01100: (fill plate2)
+0.01200: (move bta aua)
+0.01300: (move aua pua)
+0.01400: (serve pua custom2 plate2)
+0.01500: (move pua aua)
+0.01600: (move aua bta)
+0.01700: (hold bta plate3)
+0.01800: (fill plate3)
+0.01900: (move bta aua)
+0.02000: (move aua pua)
+0.02100: (move pua pma)
+0.02200: (serve pma custom1 plate3)
+Metric: 0.022
+Makespan: 0.022
+States evaluated: undefined
+Planner found 1 plan(s) in 0.594secs.
+

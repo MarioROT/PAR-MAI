@@ -1,4 +1,4 @@
-(define (domain restaurant-conditional-effects)
+(define (domain restaurant)
 (:requirements :strips :equality  :adl :typing :conditional-effects :negative-preconditions )
 (:types location physob customer) 
 

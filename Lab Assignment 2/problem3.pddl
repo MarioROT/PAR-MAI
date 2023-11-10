@@ -1,4 +1,4 @@
-(define (problem problem3) (:domain restaurant )
+(define (problem problem3) (:domain restaurant)
 
 
 (:objects plate1 plate2 plate3 -physob
