@@ -1,4 +1,4 @@
-(define (problem problem2) (:domain restaurant)
+(define (problem problem2) (:domain restaurant-conditional-effects)
 
 
 (:objects plate1 plate2 plate3 -physob
